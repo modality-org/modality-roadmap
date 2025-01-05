@@ -18,9 +18,11 @@ Modality is an open source standard for verifiable contracts providing [native f
 
 ## 🎯 Use Cases
 
-* 🔐 Integrating self-custody identity management
+* 🔐 Embedding identity management into workflows
 * 📚 Enhancing record keeping with rules and governance
-* 🌐 Deploying verifiable contracts on a global network
+* ✍️ Adding dynamic consent to compliance docs
+* 🤖 Enabling agents to self-orchestrate cooperation
+* 🌐 Deploying verifiable contracts onto a global network
 
 ## 🚀 Quick Start
 
