@@ -40,10 +40,10 @@ cargo install modality
 Modality is actively developed in both JavaScript and Rust.
 
 ### JavaScript
-The goal of [Modality JavaScript](https://githube.com/modality-org/modality-js) is to provide easy to use web-compatible libraries for verifiable contracts.
+The goal of [Modality JavaScript](https://github.com/modality-org/modality-js) is to provide easy to use web-compatible libraries for verifiable contracts.
 
 ### Rust
-The goal of [Modality Rust](https://githube.com/modality-org/modality-rust) is to provide portable system level libraries and a CLI for use with verifiable contracts.
+The goal of [Modality Rust](https://github.com/modality-org/modality-rust) is to provide portable system level libraries and a CLI for use with verifiable contracts.
 
 
 ## 🌍 Community & Support
@@ -56,6 +56,11 @@ The goal of [Modality Rust](https://githube.com/modality-org/modality-rust) is t
 
 ## 🧑‍💻 Contributors
 
-<a href="https://github.com/modality-dev/modality-rust/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=modality-dev/modality-rust" />
-</a>
+### JavaScript
+<a href="https://github.com/modality-org/modality-js/graphs/contributors"><img src="https://contrib.rocks/image?repo=modality-org/modality-js" /></a>
+
+### Rust
+<a href="https://github.com/modality-org/modality-rust/graphs/contributors"><img src="https://contrib.rocks/image?repo=modality-org/modality-rust" /></a>
+
+### .contract
+<a href="https://github.com/modality-org/modality-rust/graphs/contributors"><img src="https://contrib.rocks/image?repo=dotcontract/dotcontract" /></a>
