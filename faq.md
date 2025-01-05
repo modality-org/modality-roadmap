@@ -1,4 +1,4 @@
-# 🤔 Modality Q&A
+# 🤔 Modality FAQs
 
 ## What is Modality?
 
@@ -32,3 +32,16 @@ Notably, [Bud was the first person to use formal verification to identity a hard
 
 ## What is formal verification?
 
+Formal verification is a technique for verifying the behavior of a system using formal specifications. When a specification is formally verified, it is confirmed over all possible outcomes.
+
+## How do verifiable contracts work?
+
+Verifiable contracts are an append-only log of interactions called commits.
+
+Each commit may contain values and rules. Values are recorded in the log. Rules are formal specifications that constrain future commits.
+
+Whenever a new rule is added, a governing model is provided, proving that all rules remain satisfied.
+
+Whenever a commit is added, its validity against the rules is confirmed against the governing model.
+
+Sometimes the existing governing model over-constrains a contract beyond the specified rules. In such cases, the governing model may be replaced by a new commit.
