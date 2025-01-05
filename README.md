@@ -12,9 +12,11 @@
 
 ## 🤔 What is this?
 
-[Verifiable contracts]() are a mechanism for ensuring the compliance of evolving constraints over data.
+[Verifiable contracts](/faq.md) are a mechanism for ensuring the compliance of evolving constraints over data.
 
-Modality is an open source standard for verifiable contracts providing [native formal verification]().
+Modality is an open source standard for verifiable contracts providing [native formal verification](/faq.md).
+
+Please read the [FAQs](/faq.md) to learn more.
 
 ## 🎯 Use Cases
 
