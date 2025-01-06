@@ -42,6 +42,25 @@ Each commit may contain values and rules. Values are recorded in the log. Rules 
 
 Whenever a new rule is added, a governing model is provided, proving that all rules remain satisfied.
 
-Whenever a commit is added, its validity against the rules is confirmed against the governing model.
+Whenever a commit is added, its validity against the rules is confirmed using the governing model.
 
 Sometimes the existing governing model over-constrains a contract beyond the specified rules. In such cases, the governing model may be replaced by a new commit.
+
+<!-- ## Who does the verifying?
+
+... -->
+
+## What do rules look like?
+
+Modality rules are written in temporal logic called MTL (Modality Temporal Logic).
+MTL is based on the [modal-mu calculus](https://en.wikipedia.org/wiki/Modal_%CE%BC-calculus) but made to be more accessible.
+
+Here's a simple example that requires all future commits to be signed by an admin:
+
+`always must include_signature_from( /config/admin.id )`
+
+## What's the Modality Network?
+
+We're working on a specialized blockchain for verifiable contracts called the [Modality Network](/modality-network.md).
+
+You don't have to use the Modality Network to use Modality itself. However, if your application would benefit from the public posting of verifiable contracts in a decentralized environment, the Modality Network is a great fit.
