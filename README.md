@@ -29,7 +29,7 @@ Please read the [FAQs](/faq.md) to learn more.
 ## 🚀 Quick Start
 
 ```bash
-cargo install modality
+curl --proto '=https' --tlsv1.2 -sSf https://www.modality.org/install.sh | sh
 ```
 
 ## 🏁 Roadmap
